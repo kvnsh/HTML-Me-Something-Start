@@ -1,1 +1,63 @@
 /* Write your CSS here! */
+
+/* Use the element selector to give the <body> element a margin value of 8px and a display type of block. */
+/*element selector*/
+body {
+    margin: 8px;
+    display: block;
+}
+
+/* Give a heading on your page the id of mainHeading and use the id selector in styles.css to apply a styling of your choosing. */
+/*id*/
+#mainHeading {
+    color: red; /* Red color for the heading */
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Give a paragraph on your page the id of testP and a class name of funParagraph. 
+Use the class selector in styles.css and give it a styling of your choosing. */
+/*class*/
+.funParagraph {
+    font-style: italic;
+    color: green; /* Green color for the paragraph text */
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Apply styles to the navigation links */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0066cc; /* Blue color for the links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Apply styles to the footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0; /* Light gray background color */
+}
+
+/* Apply styles to the images within the article */
+article img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /* Add a light gray border to images */
+    margin-bottom: 15px;
+}
